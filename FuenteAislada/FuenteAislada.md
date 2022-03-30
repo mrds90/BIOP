@@ -2,7 +2,7 @@
 ## Dispositivo
 ISOW784x de Texas Instruments
 
-## Tensión de entrada y s   
+## Tensión de entrada y salida 
 - Entrada: 3\[V] a 5.5\[V]
 - Salida: 3\[V] o 5\[V] regulados
 
