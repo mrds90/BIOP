@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "eec")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/IC_Texas Instruments_ADS1299-4PAGR/eec.lib")(options "")(descr ""))
+)
