@@ -320,6 +320,26 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "a60b294e-3334-4c44-9a50-7030a9d4dbb5",
+      "ADS_CONNECTION"
+    ],
+    [
+      "e6d3e90c-5728-4ed7-b8e0-46532684012f",
+      "ISOLATION_INTERFACE"
+    ],
+    [
+      "e021e687-f5d7-437e-a6f4-6cc7a603a8cd",
+      "Adquisition"
+    ],
+    [
+      "d3ee7c31-a3ef-4731-b039-95169bb33778",
+      "USB_INTERFACE"
+    ],
+    [
+      "eef0793b-a541-4333-b55a-34e1cd5a84e8",
+      "POWER_SUPPLY"
     ]
   ],
   "text_variables": {}

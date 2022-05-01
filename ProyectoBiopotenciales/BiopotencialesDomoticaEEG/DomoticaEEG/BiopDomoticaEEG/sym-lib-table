@@ -1,3 +1,8 @@
 (sym_lib_table
   (lib (name "eec")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/IC_Texas Instruments_ADS1299-4PAGR/eec.lib")(options "")(descr ""))
+  (lib (name "eec1")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/IC_Analog Devices_ADUM6401ARWZ/eec.lib")(options "")(descr ""))
+  (lib (name "adum2401")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/IC_Analog Devices_ADUM2401BRWZ/eec.lib")(options "")(descr ""))
+  (lib (name "tpd2e001")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/IC_Texas Instruments_TPD2E001DRSR/eec.lib")(options "")(descr ""))
+  (lib (name "MCP2210T-I_SO")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/MCP2210T-I_SO/MCP2210T-I_SO.lib")(options "")(descr ""))
+  (lib (name "MCP1825S-3302E_DB")(type "Legacy")(uri "/home/marcos/Repositorios/KiCad_Library/MCP1825S-3302E_DB/MCP1825S-3302E_DB.lib")(options "")(descr ""))
 )
