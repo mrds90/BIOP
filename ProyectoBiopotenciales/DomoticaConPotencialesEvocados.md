@@ -1,6 +1,6 @@
 # Domotica con SSVEP
 
-Trabajo práctico final realizado en el contexto de la Especialidad en Sistemas Embebidos de la FIUBA.
+Trabajo práctico final realizado en el contexto de la Especialidad en Sistemas Embebidos de la FIUBA para el curso Biopotenciales y signos vitales, registro y aplicaciones.
 
 Autor: [Marcos Dominguez](https://github.com/mrds90)
 
