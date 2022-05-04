@@ -1,6 +1,6 @@
 # Domótica con SSVEP
 
-Trabajo práctico final realizado en el contexto de la Especialidad en Sistemas Embebidos de la FIUBA para el curso Biopotenciales y signos vitales, registro y aplicaciones.
+Trabajo práctico final realizado en el contexto de la Especialidad en Sistemas Embebidos de la FIUBA para el curso "Biopotenciales y signos vitales, registro y aplicaciones".
 
 Autor: [Marcos Domínguez](https://github.com/mrds90)
 
@@ -42,19 +42,19 @@ En las siguiente figura se muestra la pantalla inicial del sistema.
 
 ![alt text](Docs/Figures/app_fig1.png)
 
-Al seleccionar una opción se vera un menú similar al siguiente (depende de la configuración del hogar para el usuario particular)
+Al seleccionar una opción se vera un menú similar al siguiente (depende de la configuración del hogar para el usuario particular).
 
 ![alt text](Docs/Figures/app_fig2.png)
 
-En el menu anterior los ambientes del menu se muestran en función de los últimos seleccionados por el usuario. Es decir que siempre que entre a la opción "hogar" del primer menu, las primeras dos opciones que aparecerán son los dos últimos ambientes que eligió en la app.
+En el menu anterior los ambientes se muestran en función de los últimos seleccionados por el usuario. Es decir que siempre que entre a la opción "hogar" del primer menu, las primeras dos opciones que aparecerán son los dos últimos ambientes que se eligieron en la app.
 
-Seleccionado el ambiente aparecen los dispositivos a controlar como se muestra a continuación:
+Seleccionado el ambiente aparecen los dispositivos. A continuación se muestra como se visualizan los dispositivos de forma genérica:
 
 ![alt text](Docs/Figures/app_fig3.png)
 
 ## Diagrama en bloques del sistema
 
-En la siguiente imagen se puede visualizar el diagrama en bloques del sistema
+En la siguiente imagen se puede visualizar el diagrama en bloques del sistema:
 
 ![alt text](Docs/Figures/block_diagram.png)
 
@@ -66,6 +66,10 @@ Se decidió utilizar una referencia común para los 4 canales planteados.
 Para definir el conexionado de este dispositivo se baso el circuito principalmente en las referencias de [RD4](#referencias) y [RD5](#referencias).
 
 ![alt text](Docs/Figures/ADS1299sch.png)
+
+Ademas se utiliza un filtro anti-alias a la entrada de cada canal como se muestra en el siguiente esquema:
+
+![alt text](Docs/Figures/AntiAliassch.png)
 
 Para obtener la aislación respecto a la alimentación, se utilizan dos ADuMs. En estos se transmiten las señales de SPI y de control entre el ADS1299 y el MCP2210. Este circuito está basado en el circuito de [RD5](#referencias).
 
@@ -79,9 +83,11 @@ La alimentación de 5V se realiza mediante USB y se regula a 3.3V con el MCP1825
 
 ![alt text](Docs/Figures/MCP1825Ssch.png)
 
-En el siguiente enlace se puede encontrar el proyecto en KiCad para visualizarlo: [KiCad Project](https://github.com/mrds90/BIOP/tree/master/ProyectoBiopotenciales/BiopotencialesDomoticaEEG/DomoticaEEG/BiopDomoticaEEG)
+En el siguiente enlace se puede encontrar el proyecto en KiCad para visualizarlo: [KiCad Project](https://github.com/mrds90/BIOP/tree/master/ProyectoBiopotenciales/BiopotencialesDomoticaEEG/DomoticaEEG/BiopDomoticaEEG).
 
-Para su correcta visualización debe utilizar las siguiente librería: [KiCad-Librerías](https://github.com/mrds90/KiCad_Library)
+Para su correcta visualización debe utilizar las siguiente librería: [KiCad-Librerías](https://github.com/mrds90/KiCad_Library).
+
+También puede encontrar el esquemático completo en formato pdf en: [Schematic.pdf](Docs/Schematic.pdf).
 
 ## Conclusiones
 
