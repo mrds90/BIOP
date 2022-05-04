@@ -79,6 +79,10 @@ La alimentación de 5V se realiza mediante USB y se regula a 3.3V con el MCP1825
 
 ![alt text](Docs/Figures/MCP1825Ssch.png)
 
+En el siguiente enlace se puede encontrar el proyecto en KiCad para visualizarlo: [KiCad Project](https://github.com/mrds90/BIOP/tree/master/ProyectoBiopotenciales/BiopotencialesDomoticaEEG/DomoticaEEG/BiopDomoticaEEG)
+
+Para su correcta visualización debe utilizar las siguiente librería: [KiCad-Librerías](https://github.com/mrds90/KiCad_Library)
+
 ## Conclusiones
 
 Se implementó el diseño de un circuito para adquisición de biopotenciales. Se aprendió a utilizar la herramienta de diseño de Hardware KiCad para generar el esquemático del circuito. Adicionalmente se planteó una aplicación para el control de dispositivos del hogar utilizando potenciales evocados visuales en estado estacionario.
