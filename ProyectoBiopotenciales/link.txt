@@ -1,0 +1,3 @@
+En el siguiente enlace se encuetra el trabajo final
+
+https://github.com/mrds90/BIOP/blob/master/ProyectoBiopotenciales/DomoticaConPotencialesEvocados.md
